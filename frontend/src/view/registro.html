@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gimnasio Arapaima</title>
+    <link rel="stylesheet" href="style/styles.css">
+</head>
+<body>
+    <!-- contenido principal -->
+   
+    <header>
+       
+        <h1>Gimnasio Arapaima</h1>
+        <nav>
+            <ul>
+                <li><a href="../../index.html">inicio</a></li>
+                <li><a href="asistencias.html">asistencias</a></li>
+                <li><a href="login.html">login</a></li>
+                <li><a href="registro.html">registro</a></li>
+            </ul>
+        </nav>
+    </header>
+    <aside>
+        <h2>menu</h2>
+        <ul>
+            <li>Inicio</li>
+            <li>Servicios</li>
+            <li>Contacto</li>
+            <li>numerico</li>
+        </ul>
+    </aside>
+    <main>
+       <section>
+          <form action="#" method="post">
+            <label for="document">numero de documento</label>
+            <input type="text" id="documento" name="documento" required placeholder="Ingrese su documento"
+            maxlength="10" pattern="[0-9]{10}">
+
+            <label for="rol">rol</label>
+            <select id="rol" name="rol" required>
+                <option value="">...</option>
+                <option value="aprndiz" selected>aprendiz</option>
+                <option value="instructor">instructor</option>
+            </select>
+            <button type="submit">Registrar</button>
+
+
+
+
+          </form>
+
+
+       </section>
+    </main>
+    <footer>
+        <p>&copy; 400ac Gimnasio Arapaima. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
